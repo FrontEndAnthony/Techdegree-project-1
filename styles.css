@@ -76,16 +76,14 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2) rotate(25deg);
 }
-.background {
-  text-align: center;
-}
-.goals {
+.card-title {
   text-align: center;
 }
 .background-image {
   display: block;
-  max-width: 325px;
-  padding-left: 80px;
+  max-width: 275px;
+  padding-left: auto;
+  padding-right: auto;
 }
 .tag {
   background-color: #efefef;
