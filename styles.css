@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/Waltham\ Moody\ street\ bridge.JPG') no-repeat top center ;
+  background: url('images/Waltham\ Bridge.JPG') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -112,6 +112,11 @@ header .profile-image:hover {
 }
 
 ul.skills {
+  padding: 0;
+  text-align: center;
+}
+
+ol.skills {
   padding: 0;
   text-align: center;
 }
