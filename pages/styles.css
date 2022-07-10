@@ -79,12 +79,7 @@ header .profile-image:hover {
 .card-title {
   text-align: center;
 }
-.background-image {
-  display: block;
-  max-width: 275px;
-  padding-left: auto;
-  padding-right: auto;
-}
+
 .tag {
   background-color: #efefef;
   color: black;
