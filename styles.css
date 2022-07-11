@@ -70,7 +70,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid rgb(60, 230, 246);
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -93,7 +93,7 @@ header .profile-image:hover {
   color: yellow;
 }
 .article {
-  margin: 30px;
+  margin: 40px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
