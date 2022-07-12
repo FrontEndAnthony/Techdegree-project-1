@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.nav {
+.top-links {
   width: 100%;
   background: black;
   min-height: 30px;
@@ -31,7 +31,7 @@ a:hover {
   position: fixed;
   text-align: center;
 }
-.nav-2 {
+.list-links {
   display: flex;
   justify-content: space-around;
   font-weight: 700;
@@ -40,24 +40,24 @@ a:hover {
   padding: 0;
 }
 
-.nav-2 .name {
+.list-links .name {
     display: block;
     margin-right: auto;
     color: white;
 }
-.nav-2 li {
+.list-links li {
   padding: 5px 10px 10px 10px;
 }
-.nav-2 a {
+.list-links a {
   transition: all .5s;
 }
-.nav-2 a:hover {
+.list-links a:hover {
   color: white
 }
 
 header {
   text-align: center;
-  background: url('images/Waltham\ Bridge.JPG') no-repeat top center ;
+  background: url('images/Waltham_Bridge.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -76,6 +76,7 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2) rotate(45deg);
 }
+/* change card-title to something else */
 .card-title {
   text-align: center;
 }
@@ -191,8 +192,8 @@ a.social:hover {
   header {
     min-height: 470px;
   }
-
-  .nav-2 {
+  
+  .list-links {
     max-width: 1200px;
     padding: 0 30px;
   }
