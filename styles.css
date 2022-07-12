@@ -36,7 +36,7 @@ a.pages:hover {
   position: fixed;
   text-align: center;
 }
-.list-links {
+.nav {
   display: flex;
   justify-content: space-around;
   font-weight: 700;
@@ -45,18 +45,18 @@ a.pages:hover {
   padding: 0;
 }
 
-.list-links .name {
+.nav .name {
     display: block;
     margin-right: auto;
     color: white;
 }
-.list-links li {
+.nav li {
   padding: 5px 10px 10px 10px;
 }
-.list-links a {
+.nav a {
   transition: all .5s;
 }
-.list-links a:hover {
+.nav a:hover {
   color: white
 }
 
@@ -98,7 +98,7 @@ header .profile-image:hover {
   background-color: #222;
   color: yellow;
 }
-.article {
+.card {
   margin: 40px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -108,7 +108,7 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.article:hover {
+.card:hover {
   border-color: #ff99ff;
 }
 
@@ -198,7 +198,7 @@ a.social:hover {
     min-height: 470px;
   }
   
-  .list-links {
+  .nav {
     max-width: 1200px;
     padding: 0 30px;
   }
